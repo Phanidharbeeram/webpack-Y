@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-image: url("https://image.shutterstock.com/image-photo/micro-peacock-feather-hd-imagebest-260nw-1127238599.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
