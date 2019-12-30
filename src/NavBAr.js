@@ -5,7 +5,6 @@ import transfor from "jump.js";
 export default function NavBAr() {
   useEffect(() => {
     transfor("#nav");
-    
   }, []);
 
   return (
@@ -19,12 +18,8 @@ export default function NavBAr() {
               to="first"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
-              // delay={2000}
-              //onSetActive={handleSetActive}
             >
-              First Page
+              First
             </Link>
           </li>
           <li>
@@ -34,10 +29,6 @@ export default function NavBAr() {
               to="second"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
-              // delay={2000}
-              //onSetActive={handleSetActive}
             >
               second
             </Link>
@@ -49,10 +40,6 @@ export default function NavBAr() {
               to="third"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
-              // delay={2000}
-              //onSetActive={handleSetActive}
             >
               Third
             </Link>
@@ -64,10 +51,6 @@ export default function NavBAr() {
               to="four"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
-              // delay={2000}
-              //onSetActive={handleSetActive}
             >
               Four
             </Link>
@@ -79,10 +62,6 @@ export default function NavBAr() {
               to="five"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
-              // delay={2000}
-              //onSetActive={handleSetActive}
             >
               Five
             </Link>

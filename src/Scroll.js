@@ -5,7 +5,7 @@ export default function Scroll() {
   return (
     <div>
       <div id="first" className="c">
-        <div>
+        <div className="sect">
           <h2>Welcome to Profile</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -31,13 +31,16 @@ export default function Scroll() {
         </button>
       </div>
       <div id="second" className="c">
-        <h2>Welcome to Profile</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
-          accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
-          voluptatem illo ea!
-        </p>
+        <div className="sect">
+          {" "}
+          <h2>Welcome to Profile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
+            accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
+            voluptatem illo ea!
+          </p>
+        </div>{" "}
         <button
           onClick={() => {
             transfor("#third");
@@ -47,13 +50,15 @@ export default function Scroll() {
         </button>
       </div>
       <div id="third" className="c">
-        <h2>Welcome to Profile</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
-          accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
-          voluptatem illo ea!
-        </p>{" "}
+        <div className="sect">
+          <h2>Welcome to Profile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
+            accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
+            voluptatem illo ea!
+          </p>{" "}
+        </div>
         <button
           onClick={() => {
             transfor("#four");
@@ -63,13 +68,15 @@ export default function Scroll() {
         </button>
       </div>
       <div id="four" className="c">
-        <h2>Welcome to Profile</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
-          accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
-          voluptatem illo ea!
-        </p>{" "}
+        <div className="sect">
+          <h2>Welcome to Profile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
+            accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
+            voluptatem illo ea!
+          </p>{" "}
+        </div>{" "}
         <button
           onClick={() => {
             transfor("#five");
@@ -79,6 +86,15 @@ export default function Scroll() {
         </button>
       </div>
       <div id="five" className="c">
+        <div className="sect">
+          <h2>Welcome to Profile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            nemo aspernatur magni dolorem unde illum iste molestiae, obcaecati
+            accusamus aliquid corrupti vitae sed saepe. Voluptate maxime fuga
+            voluptatem illo ea!
+          </p>{" "}
+        </div>
         <button
           onClick={() => {
             transfor("#first");
